@@ -1,4 +1,4 @@
-name := """hello-scala"""
+name := """orientdb-scala"""
 
 version := "1.0"
 
