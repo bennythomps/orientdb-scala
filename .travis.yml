@@ -1,6 +1,7 @@
 language: scala
-script: sbt -jvm-opts jvmopts.travis
-jdk:
-  - openjdk6
+jdk: oraclejdk7
+sudo: false
+scala:
+  - 2.11.1
 notifications:
   flowdock: a83c0a94dda84624181a2fd39b56fd3f
